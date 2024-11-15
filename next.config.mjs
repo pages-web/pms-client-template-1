@@ -13,6 +13,7 @@ const nextConfig = {
     NEXT_PUBLIC_ROOT_CATEGORY_ID: "uJbP19-R7pKZDsui6fHdw",
     NEXT_ERXES_APP_TOKEN:
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOnsibmFtZSI6ImFkbWluIiwiY3JlYXRlZEF0IjoiMjAyNC0xMC0yM1QxMjoyNDoyNy4wMDRaIiwidXNlckdyb3VwSWQiOiIiLCJleHBpcmVEYXRlIjoiMjAyNC0xMS0yMlQxMjo0OTowNS44NThaIiwibm9FeHBpcmUiOnRydWUsImFsbG93QWxsUGVybWlzc2lvbiI6dHJ1ZSwiX2lkIjoiUk13S0RPUGk5akozdjVVNDJweVNyIiwiX192IjowfSwiaWF0IjoxNzI5Njg3NzUyfQ.bju-7tdUywPb0wEnUkw256PYQ2cbQilfTjTX_U-prnA",
+    NEXT_PUBLIC_CP_ID: "TUNuC8L13stQkJ1Ksmfk1",
   },
 };
 
