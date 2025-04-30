@@ -5,11 +5,11 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    NEXT_PUBLIC_MAIN_API_DOMAIN: "https://ekhterelj.api.erxes.io/gateway",
-    NEXT_PUBLIC_CP_ID: "1lnZcxjVZ9i7rXipm26Dw",
-    NEXT_PUBLIC_PMS_TOKEN: "WDhfiVSLriHkdzMd9Eaa2vgCpTiEgObD",
+    NEXT_PUBLIC_MAIN_API_DOMAIN: "https://tourism.api.erxes.io/gateway",
+    NEXT_PUBLIC_CP_ID: "pzJqkYNez7wKTgt1gNhCC",
+    NEXT_PUBLIC_PMS_TOKEN: "cplOSUugJWEsxHRjbD8N1jzuVdsPmwN8",
     NEXT_PUBLIC_APP_TOKEN:
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOnsibmFtZSI6IldlYiIsImNyZWF0ZWRBdCI6IjIwMjUtMDQtMTZUMDI6MTE6NTYuODA4WiIsInVzZXJHcm91cElkIjoiNEVIeWRUREFpczJMZFFuWm4iLCJleHBpcmVEYXRlIjoiMjAyNS0wNS0xNlQwMzo0NToyOC41MzJaIiwibm9FeHBpcmUiOnRydWUsImFsbG93QWxsUGVybWlzc2lvbiI6dHJ1ZSwiX2lkIjoib3pDMVBPcDY3bzVVME4wbTNaaFozIiwiX192IjowfSwiaWF0IjoxNzQ0Nzc1MTM2fQ.P0_-fV4i3A4eQ0kSv_h67s_Esk5WNlTteHfYZT_g6iQ",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOnsibmFtZSI6IkhvdGVsIHRva2VuIiwiY3JlYXRlZEF0IjoiMjAyNS0wMS0yN1QwNzowMTo0MC44NzdaIiwidXNlckdyb3VwSWQiOiI0RUh5ZFREQWlzMkxkUW5abiIsImV4cGlyZURhdGUiOiIyMDI1LTAyLTI2VDEwOjM2OjQ0LjQ3M1oiLCJub0V4cGlyZSI6dHJ1ZSwiYWxsb3dBbGxQZXJtaXNzaW9uIjp0cnVlLCJfaWQiOiJ5NjZTTlRKZW9jd1VhYVFqWU5FVHciLCJfX3YiOjB9LCJpYXQiOjE3Mzc5NzQyMTV9.lLwFmzMudhQK9hu3WatkS4LlXYgMJEq4Zf4CbWzkmno",
   },
 };
 
