@@ -29,8 +29,8 @@ export default function Footer() {
             Visit one of our 150 hotels worldwide for customizations, fittings &
             styling advice.
           </p>
-          <p className="text-sm text-gray-600">info@bestwesternmongolia.mn</p>
-          <p className="text-sm text-gray-600 mb-4">+976 (11) 323162</p>
+          <p className="text-sm text-gray-600">template1.email</p>
+          <p className="text-sm text-gray-600 mb-4">+976 template 1</p>
           <button className="border border-gray-400 text-sm px-4 py-2 rounded-full hover:bg-gray-100 transition">
             Contact Us
           </button>
