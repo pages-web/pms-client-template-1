@@ -51,7 +51,7 @@ const CheckoutPage = ({ amount }: { amount: number }) => {
       elements,
       clientSecret,
       confirmParams: {
-        return_url: `https://pms-client.erxes.io/${locale}/payment-success?amount=${amount}`,
+        return_url: `https://pms-client-template-1.vercel.app/${locale}/payment-success?amount=${amount}`,
       },
     });
 

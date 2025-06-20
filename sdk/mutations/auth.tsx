@@ -143,10 +143,12 @@ export const useResetPassword = () => {
 };
 
 export const useLogout = () => {
+  const router = useRouter();
   const triggerRefetchUser = useSetAtom(refetchCurrentUserAtom);
   const [logout, { loading }] = useMutation(mutations.logout, {
     onCompleted() {
       triggerRefetchUser(true);
+      router.push("/login");
     },
     onError,
   });

@@ -39,13 +39,6 @@ const Orders = () => {
     variables: { pipelineId: currentConfig?.pipelineConfig.pipelineId },
   });
 
-  const { labels } = useLabels();
-  const roomCategories = roomCategoriesData?.productCategories;
-  const deals = data?.deals;
-  const stages = stagesData?.salesStages;
-
-  console.log(data);
-
   const router = useRouter();
   return (
     <div className="w-[80%] min-h-screen space-y-3 md:space-y-6 pt-6 md:pt-10 flex flex-col container">
@@ -126,7 +119,6 @@ const Orders = () => {
                                 ? "bg-[#95fea0] text-[#1d6824]"
                                 : "bg-[#c7ffcd] text-secondary"
                             } */}
-                            
                           {/* {tags?.filter((tag: any) =>
                             deal.tagIds.includes(tag._id)
                           )

@@ -39,7 +39,7 @@ const CurrentUser = () => {
           <MenubarMenu>
             <MenubarTrigger className="cursor-pointer data-[state=open]:bg-white data-[state=open]:text-white focus:bg-white focus:text-white">
               <Avatar asChild>
-                <div>
+                <div className="text-white">
                   <AvatarImage src={avatar} alt={currentUser.firstName} />
                   <AvatarFallback>
                     {(firstName || "P")[0]}

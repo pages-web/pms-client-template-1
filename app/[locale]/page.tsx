@@ -19,7 +19,6 @@ import HomeBooking from "@/components/home-booking/home-booking";
 
 export default function HomePage() {
   const { customPosts } = useCustomCmsPosts();
-  console.log(customPosts, "customPosts");
 
   return (
     <div className="flex flex-col gap-8 lg:gap-28 container">

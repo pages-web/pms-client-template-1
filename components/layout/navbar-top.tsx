@@ -91,6 +91,7 @@ export async function NavbarTop({ children }: { children?: React.ReactNode }) {
             ))}
           </nav>
         </div>
+        {children}
       </div>
     </header>
   );

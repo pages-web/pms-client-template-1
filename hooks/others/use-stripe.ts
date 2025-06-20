@@ -46,7 +46,7 @@ export const useStripeCheckout = () => {
       elements,
       clientSecret,
       confirmParams: {
-        return_url: `https://pms-client.erxes.io/${locale}/payment-success?amount=${totalAmount}`,
+        return_url: `https://pms-client-template-1.vercel.app/${locale}/payment-success?amount=${totalAmount}`,
       },
     });
 
